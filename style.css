@@ -99,7 +99,9 @@ th, td {
 }
 
 th {
-    background-color: #0a1573; /* テーブルヘッダー行の背景色 */
+    background: -moz-linear-gradient(top, navy, black);
+    background: -webkit-linear-gradient(top, navy, black);
+    background: linear-gradient(to bottom, navy, black);
     color: #fff; /* ヘッダー行の文字色 */
 }
 
@@ -119,7 +121,6 @@ table a:hover {
     text-decoration: underline;
 }
 
-/* 追加: クラス名が誤っていました */
 footer {
     background: linear-gradient(to bottom, navy, black);
     color: white;
