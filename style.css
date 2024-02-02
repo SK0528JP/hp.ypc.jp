@@ -83,6 +83,42 @@ h2{
     border-bottom: 4px solid #0a1573;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; /* テーブルの背景色 */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	 border-radius: 16px; /* 角を丸くする値を設定 */
+    overflow: hidden; /* 内容が角をはみ出ないようにする */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #0a1573; /* テーブルヘッダー行の背景色 */
+    color: #fff; /* ヘッダー行の文字色 */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* 偶数行の背景色 */
+}
+
+/* 表内のリンクにスタイルを適用 */
+table a {
+    text-decoration: none;
+    color: #3498db; /* テーブル内のリンクの色 */
+    font-weight: bold;
+}
+
+/* リンクホバー時のスタイル */
+table a:hover {
+    text-decoration: underline;
+}
+
 /* 追加: クラス名が誤っていました */
 footer {
     background: linear-gradient(to bottom, navy, black);
