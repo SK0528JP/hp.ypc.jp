@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "03SmartFontUI";
+  src: url("03SmartFontUI.ttf");
+}
+
+body {
+    font-family: '03SmartFontUI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to bottom, navy, black);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #66a0ff;
+}
+
+.hero {
+    background: url('header.png') center/cover;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+main {
+    flex: 1;
+}
+
+.about {
+    width: 90%;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: #fff; 
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+    border-radius: 32px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 4px solid #ddd;
+}
+
+.about h2,
+.about p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+h2{
+    border-bottom: 4px solid #0a1573;
+}
+
+/* 追加: クラス名が誤っていました */
+footer {
+    background: linear-gradient(to bottom, navy, black);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
