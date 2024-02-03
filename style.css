@@ -58,7 +58,7 @@ main {
 }
 
 .about {
-    width: 90%;
+    width: 84%;
     margin: 0 auto;
     padding: 32px;
     background-color: #fff; 
@@ -66,7 +66,9 @@ main {
     border-radius: 32px;
     margin-top: 64px;
     margin-bottom: 64px;
-    display: flex;
+    -webkit-box-sizing: border-box;  /*webkit系*/
+    -moz-box-sizing: border-box;  /*Firefox*/
+    box-sizing: border-box;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
@@ -89,7 +91,7 @@ table {
     margin-top: 20px;
     background-color: #fff; /* テーブルの背景色 */
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
-	 border-radius: 16px; /* 角を丸くする値を設定 */
+	border-radius: 16px; /* 角を丸くする値を設定 */
     overflow: hidden; /* 内容が角をはみ出ないようにする */
 }
 
