@@ -82,7 +82,10 @@ main {
 }
 
 h2{
-    border-bottom: 4px solid #0a1573;
+    background-image: linear-gradient(to right, #011591, #ffffff);
+	background-repeat: no-repeat;
+	background-size: 100% 20%;
+	background-position: bottom;
 }
 
 table {
