@@ -130,3 +130,27 @@ footer {
     padding: 1rem;
     margin-top: auto;
 }
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.purple {
+    color: purple;
+}
+
+.gray {
+    color: gray;
+}
+
+.yellow {
+    color: yellow;
+}
